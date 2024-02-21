@@ -1,0 +1,15 @@
+.container_Header{
+    padding-top: 15px;
+    text-align: center;  
+    border: 1px solid  #bebebe;
+}
+
+.menu_options{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_options > li{
+    list-style: none;
+}

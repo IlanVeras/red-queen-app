@@ -1,0 +1,43 @@
+.container_Card{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  35px 35px 70px #bebebe,
+             -35px -35px 70px #ffffff;
+}
+
+.name_person > p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.container_house > p{
+    margin: 10px 0px 10px 0px;
+    font-size: large;
+}
+
+.container_img_house{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.container_btn_Card{
+    margin: 50px 0px 0px 0px;
+}
+
+.btn_Card{
+    all: unset;
+}
