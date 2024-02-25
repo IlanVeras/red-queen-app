@@ -3,10 +3,13 @@ import reactLogo from './assets/react.svg'
 import React from 'react'
 import Header from './Components/Header/Header'
 import Card from './Components/Card/Card'
+import Bubbles from './Components/Bubbles/Bubbles'
+import ArrayPeople from './Components/ArrayPeople/ArrayPeople'
 import './App.css'
 import peopleOfNorta from "./assets/peopleOfNorta"
-console.log(peopleOfNorta)
-console.log(peopleOfNorta.silverHouses.samos)
+// console.log(peopleOfNorta)
+// console.log(peopleOfNorta.silverHouses.samos)
+
 function App() {
   const [personName,setPersonName] = useState("Maven Merandus Calore")
   const [housePerson,setHousePerson] = useState("Calore")
@@ -18,14 +21,8 @@ function App() {
   return (
     <div>
       <Header></Header>
-      {/* <Card personName={calore.people[1].name} housePerson={calore.houseName}></Card> */}
       <div  className='generalDiv'>
-        {
-          calore.people.map((person) => {
-            return(
-            <Card personName={person.name} housePerson={person.houseName}></Card>)
-          })
-        }
+        <ArrayPeople array={calore}></ArrayPeople>
       </div>
     </div>
   )

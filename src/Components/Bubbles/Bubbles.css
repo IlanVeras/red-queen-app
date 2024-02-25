@@ -1,0 +1,88 @@
+
+
+.container-Bubble {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: radial-gradient(circle, #4a0700, #000); /* Gradiente escuro no centro para preto nas bordas */
+    align-items: center;
+    position: absolute;
+    top: 50px !important;
+    inset: 0;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+.bg-shape1{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: relative;
+    animation: one 10s infinite;
+}
+
+.bg-shape2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    animation: two 5s infinite;
+    background-color: yellow; 
+}
+
+.bg-shape3{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    top: -30px;
+    left: -10px;
+    animation: three 5s infinite;
+    background-color: red; 
+}
+
+@keyframes one{
+    0%{left: 0px; top: 0px}
+    25%{left: -30px; top: 10px}
+    50%{left: 20px; top: 40px}
+    75%{left: 50px; top: 10px}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes two{
+    0%{left: 0px; top: 0px}
+    25%{left: -60px; top: 30px}
+    50%{left: -30px; top: -45px}
+    75%{left: 30px; top: 10px}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes three{
+    0%{left: 0px; top: 0px}
+    25%{left: -10px; top: -10px}
+    50%{left: -50px; top: 10px}
+    75%{left: -75px; top: 0px}
+    100%{left: 0px; top: 0px;}
+}
+
+.opacity-50{
+    opacity: .5;
+}
+
+.bg-blur{
+    filter: blur(20px);
+}
+
+
+.bg-primary{
+    background-color: #FF7F00;
+}
+
+.bg-teal{
+    background-color: #FFD700;
+}

@@ -1,3 +1,4 @@
+import Bubbles from "../Bubbles/Bubbles"
 import "./Card.css"
 export default function Card(props){
     return(
@@ -6,8 +7,9 @@ export default function Card(props){
                 <p>{props.personName}</p>
             </div>
             <div className="container_house">
-                <p>{props.housePerson}</p>
+                <p>{props.houseName}</p>
                 <div className="container_img_house"></div>
+                    {/* <Bubbles></Bubbles> */}
             </div>
             <div className="container_btn_Card">
                 <button className="btn_Card">More</button>
