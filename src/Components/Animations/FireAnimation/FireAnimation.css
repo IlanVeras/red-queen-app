@@ -1,0 +1,39 @@
+/* Adapte seu CSS aqui */
+.fire {
+    font-size: 24px;
+    filter: blur(0.02em);
+    -webkit-filter: blur(0.02em);
+    margin: 3em auto 0 auto;
+    position: relative;
+    width: 10em;
+    height: 12em;
+
+    /* background-color: red; */
+  }
+  
+  .particle {
+    animation: rise 1s ease-in infinite;
+    background-image: radial-gradient(rgb(255, 80, 0) 20%, rgba(255, 80, 0, 0) 70%);
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 5em;
+    height: 5em;
+  }
+  
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(0) scale(1);
+    }
+    25% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-10em) scale(0);
+    }
+  }
+  

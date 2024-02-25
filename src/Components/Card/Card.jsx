@@ -7,9 +7,8 @@ export default function Card(props){
                 <p>{props.personName}</p>
             </div>
             <div className="container_house">
-                <p>{props.houseName}</p>
-                <div className="container_img_house"></div>
-                    {/* <Bubbles></Bubbles> */}
+                <p>House Of {props.houseName}</p>
+                <Bubbles></Bubbles>
             </div>
             <div className="container_btn_Card">
                 <button className="btn_Card">More</button>

@@ -5,6 +5,7 @@ import Header from './Components/Header/Header'
 import Card from './Components/Card/Card'
 import Bubbles from './Components/Bubbles/Bubbles'
 import ArrayPeople from './Components/ArrayPeople/ArrayPeople'
+import FireAnimation from './Components/Animations/FireAnimation/FireAnimation'
 import './App.css'
 import peopleOfNorta from "./assets/peopleOfNorta"
 // console.log(peopleOfNorta)
@@ -27,5 +28,13 @@ function App() {
     </div>
   )
 }
+
+// function App(){
+//   return(
+//     <>
+//     <FireAnimation></FireAnimation>
+//     </>
+//   )
+// }
 
 export default App

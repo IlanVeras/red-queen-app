@@ -6,7 +6,7 @@
     border-radius: 100%;
     background: radial-gradient(circle, #4a0700, #000); /* Gradiente escuro no centro para preto nas bordas */
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     top: 50px !important;
     inset: 0;
     justify-content: center;

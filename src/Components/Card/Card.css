@@ -11,6 +11,7 @@
     background: #e0e0e0;
     box-shadow:  35px 35px 70px #bebebe,
              -35px -35px 70px #ffffff;
+    z-index: 2;
 }
 
 .name_person > p{
@@ -27,10 +28,10 @@
 }
 
 .container_img_house{
-    width: 200px;
+    /* width: 200px;
     height: 200px;
     border-radius: 100%;
-    background-color: black;
+    background-color: black; */
     margin: auto;
 }
 
