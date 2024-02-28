@@ -31,7 +31,12 @@ const peopleOfNorta = {
                 "Immunity against coldness"
             ],
             cathegory: "Burners",
-            houseColors: {},
+            houseColors: {
+                backGroundHouse: "radial-gradient(circle, #4a0700, #000)",
+                color1: "#FF7F00",
+                color2: "yellow",
+                color3: "red"
+            },
             houseName: "Calore",
             weeknesses: [
                 "water"
@@ -78,7 +83,12 @@ const peopleOfNorta = {
                 "Strong relationship with anny type of metal"
             ],
             cathegory: "Magnetrons",
-            houseColors: {},
+            houseColors: {
+                backGroundHouse: "black",
+                color1: "#A9A9A9",
+                color2: "#D3D3D3",
+                color3: "#C0C0C0"
+            },
             houseName: "Samos",
             weeknesses: [
                 
