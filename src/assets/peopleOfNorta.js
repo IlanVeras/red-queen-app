@@ -6,10 +6,10 @@ const peopleOfNorta = {
             ],
             category: "Silencers",
             houseColors: {
-                backGroundHouse: "radial-gradient(black)",
-                color1: "#6B8E23", // Verde Musgo
-                color2: "#F5F5F5", // Branco Suavizado
-                color3: "#F5F5F5"
+                backGroundHouse: "white",
+                color1: "rgb(0, 92, 23)", // Verde Musgo
+                color2: "rgb(44, 153, 72)", // Branco Suavizado
+                color3: "rgb(0, 92, 23)"
             },
             houseName: "Arven",
             weeknesses: [
@@ -22,7 +22,15 @@ const peopleOfNorta = {
         blonos: {
             abilities: "",
             cathegory: "",
-            houseColors: {},
+            houseColors: {
+                backGroundHouse: "grey",
+                // color1: "rgb(255, 242, 249)",
+                // color2: "rgb(255, 242, 249)",
+                // color3: "rgb(255, 242, 249)"
+                color1: "rgb(255, 242, 249)", // Verde Musgo
+                color2: "rgb(255, 0, 234)", // Branco Suavizado
+                color3: "rgb(255, 0, 106)"
+            },
             houseName: "Blonos",
             weaknesses: [
                 

@@ -1,0 +1,9 @@
+.container-Frame{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
