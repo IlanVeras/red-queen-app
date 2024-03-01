@@ -10,6 +10,7 @@ import FireAnimation from './Components/Animations/FireAnimation/FireAnimation'
 import RoyalFamily from "./Pages/RoyalFamily/RoyalFamily"
 import SilverFamilies from "./Pages/SilverFamilies/SilverFamilies"
 import NewBloods from "./Pages/NewBloods/NewBloods"
+import EspecificFamily from "./Pages/EspecificFamily/EspecificFamily"
 import './App.css'
 import peopleOfNorta from "./assets/peopleOfNorta"
 // console.log(peopleOfNorta)
@@ -35,7 +36,6 @@ function App() {
     <>
       <Router>
       <div>
-        {/* <Header /> */}
         <div className="container_Header">
             <h3>Kindom Of Norta</h3>
             <div>
@@ -50,6 +50,7 @@ function App() {
           <Route path="/" element={<RoyalFamily />} />
           <Route path="/silvers" element={<SilverFamilies/>} />
           <Route path="/newBloods" element={<NewBloods />} />
+          <Route path="/especificFamily/:familyName" element={<EspecificFamily/>}></Route>
         </Routes>
       </div>
     </Router>
@@ -57,12 +58,5 @@ function App() {
   )
 }
 
-// function App(){
-//   return(
-//     <>
-//     <FireAnimation></FireAnimation>
-//     </>
-//   )
-// }
 
 export default App
