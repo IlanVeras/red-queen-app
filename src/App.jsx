@@ -37,12 +37,12 @@ function App() {
       <Router>
       <div>
         <div className="container_Header">
-            <h3>Kindom Of Norta</h3>
+            <h3 id="titKingdom">Kindom Of Norta</h3>
             <div>
                 <ul className="menu_options">
-                    <li><Link to="/">Royal Family</Link></li>
-                    <li><Link to="/silvers">SilverHouses</Link></li>
-                    <li><Link to="/newBloods">New Bloods</Link></li>
+                    <li><Link to="/" className="linkMy">Royal Family</Link></li>
+                    <li><Link to="/silvers" className="linkMy">SilverHouses</Link></li>
+                    <li><Link to="/newBloods" className="linkMy">New Bloods</Link></li>
                 </ul>
             </div>
         </div>

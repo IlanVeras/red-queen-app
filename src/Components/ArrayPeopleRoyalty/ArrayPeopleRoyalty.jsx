@@ -1,11 +1,11 @@
 import Card from "../Card/Card";
-import "./ArrayPeople.css"
+import "./ArrayPeopleRoyalty.css"
 
-export default function ArrayPeople(props){
+export default function ArrayPeopleRoyalty(props){
     return(
         <div className="container-ArrayPeople">
             {
-                props.array.people.map((person,key) => (
+                props.array.peopleRoyalty.map((person,key) => (
                     <Card key={key.toString()} personName={person.name} houseName={props.array.houseName} houseColors={props.array.houseColors}></Card>
                 ))
             }

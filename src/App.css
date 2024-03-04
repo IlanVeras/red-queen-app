@@ -10,3 +10,16 @@ body{
 .generalDiv{
   padding-bottom: 40px;
 }
+
+.linkMy{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#titKingdom{
+  font-size: 27px;
+}
+.menu_options > li{
+  /* margin-left: 5px; */
+}

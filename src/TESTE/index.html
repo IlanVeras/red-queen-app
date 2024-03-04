@@ -13,7 +13,34 @@
             <div class="bg-shape2 bg-primary opacity-50 bg-blur"></div>
             <div class="bg-shape3 bg-purple opacity-50 bg-blur"></div>
         </div>
+        <div class="divPai">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <div><h1>Hello World</h1></div>
+        <script>
+            const obj = {
+                teste:{},
+                array1: [],
+                array2:[2]
+            }
+            console.log(obj)
+            // delete obj.array2
+            console.log(obj)
+
+            array = [
+                {name: "X", g: true},
+                {name: "Y", g: false}
+            ]
+
+            const teste = array.map(t => {
+                if(t.g){
+                    return t
+                }
+            })
+            console.log(teste)
+        </script>
     </div>
 </body>
 </html>

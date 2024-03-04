@@ -23,7 +23,7 @@ const peopleOfNorta = {
             abilities: [],
             category: "blood healers",
             houseColors: {
-                backGroundHouse: "grey",
+                backGroundHouse: "white",
                 color1: "rgb(255, 242, 249)",
                 color2: "rgb(255, 0, 234)",
                 color3: "rgb(255, 0, 106)"
@@ -70,6 +70,28 @@ const peopleOfNorta = {
                 }
             ]
         },
+        carros: {
+            abilities: [],
+            category: "Strongarms",
+            houseColors: {
+              backGroundHouse: "radial-gradient(circle, #8B4513, #000)",
+              color1: "rgb(163, 126, 76)",
+              color2: "rgb(255, 176, 73)",
+              color3: "yellow",
+            },
+            houseName: "Carros",
+            weaknesses: [],
+            people: [
+              {
+                name: "Cantos Carros",
+                father: "",
+                mother: "",
+                status: false,
+                royal: false,
+                gender: "m",
+              },
+            ],
+          },          
         samos: {
             abilities: [
                 "control over Metal and Magnetism",
@@ -108,11 +130,42 @@ const peopleOfNorta = {
                     father: "Volo Samos",
                     mother: "Larentia Viper",
                     status: true,
-                    royal: false,
+                    royal: true,
                     gender: "f"
                 }
             ]
-        }
+        },
+        merandus: {
+            abilities: [],
+            category: "whisperers",
+            houseColors: {
+              backGroundHouse: "radial-gradient(circle, #87CEEB, #2962ff)" ,
+              color1: "white",
+              color2: "white",
+              color3: "#8ddfff",
+            },
+            houseName: "Merandus",
+            weaknesses: [],
+            people: [
+              {
+                name: "Elara Merandus",
+                father: "",
+                mother: "",
+                status: false,
+                royal: true,
+                gender: "f",
+              },
+              {
+                name: "Samson Merandus",
+                father: "",
+                mother: "",
+                status: false,
+                royal: false,
+                gender: "m",
+              },
+            ],
+          }
+          
     },
     RedOnes: {
         pureBlood: {
@@ -121,22 +174,34 @@ const peopleOfNorta = {
         },
         newBloods: {
             electricons: {
-                abilities: "",
+                abilities: [],
                 cathegory: "",
+                houseColors: {
+                    backGroundHouse: "",
+                    color1: "",
+                    color2: "",
+                    color3: "",
+                },
+                houseName: "",
                 weeknesses: [
                 
                 ],
-                male: [],
-                female: []
+                people: []
             },
             teleporters: {
-                abilities: "",
+                abilities: [],
                 cathegory: "",
+                houseColors: {
+                    backGroundHouse: "",
+                    color1: "",
+                    color2: "",
+                    color3: "",
+                },
+                houseName: "New Blood",
                 weeknesses: [
                 
                 ],
-                male: [],
-                female: []
+                people: []
             }
         }
     }

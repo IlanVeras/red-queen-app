@@ -17,11 +17,14 @@ export default function SilverFamilies(){
         <div className="container-SilverFamilies">
            {
             arrColors.map(f => (
-                <Frame>
-                    <Link to={"/especificFamily/" + f.houseName}>
-                        <Bubbles backGroundHouse={f.houseColors.backGroundHouse} bubble1={f.houseColors.color1} bubble2={f.houseColors.color2} bubble3={f.houseColors.color3}></Bubbles>
-                    </Link>
-                </Frame>
+                <div id="second-container-SilverFamilies">
+                    <Frame>
+                        <Link to={"/especificFamily/" + f.houseName}>
+                            <Bubbles backGroundHouse={f.houseColors.backGroundHouse} bubble1={f.houseColors.color1} bubble2={f.houseColors.color2} bubble3={f.houseColors.color3}></Bubbles>
+                        </Link>
+                    </Frame>
+                    <p id="houseName">{f.houseName}</p>
+                </div>
             ))
            }
         </div>
