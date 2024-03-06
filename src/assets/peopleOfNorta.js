@@ -169,28 +169,38 @@ const peopleOfNorta = {
     },
     RedOnes: {
         pureBlood: {
-            male: [],
-            female: []
+            people: [
+                
+            ]
         },
         newBloods: {
             electricons: {
-                abilities: [],
-                cathegory: "",
+                abilities: ["Generate Electricity", "Control of lightnings"],
+                category: "electricons",
                 houseColors: {
-                    backGroundHouse: "",
-                    color1: "",
-                    color2: "",
-                    color3: "",
+                    backGroundHouse: "radial-gradient(circle, #47004a, #000)",
+                    color1: "rgb(248, 33, 255)",
+                    color2: "rgb(195, 0, 255);",
+                    color3: "white",
                 },
-                houseName: "",
+                houseName: "New Blood",
                 weeknesses: [
                 
                 ],
-                people: []
+                people: [
+                    {
+                        name: "Mare Barrow",
+                        father: "",
+                        mother: "",
+                        status: false,
+                        royal: false,
+                        gender: "f",
+                    }
+                ]
             },
             teleporters: {
                 abilities: [],
-                cathegory: "",
+                category: "teleporters",
                 houseColors: {
                     backGroundHouse: "",
                     color1: "",
@@ -201,7 +211,16 @@ const peopleOfNorta = {
                 weeknesses: [
                 
                 ],
-                people: []
+                people: [
+                    {
+                        name: "Shade Barrow",
+                        father: "",
+                        mother: "",
+                        status: false,
+                        royal: false,
+                        gender: "m"
+                    }
+                ]
             }
         }
     }

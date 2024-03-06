@@ -11,6 +11,7 @@ import RoyalFamily from "./Pages/RoyalFamily/RoyalFamily"
 import SilverFamilies from "./Pages/SilverFamilies/SilverFamilies"
 import NewBloods from "./Pages/NewBloods/NewBloods"
 import EspecificFamily from "./Pages/EspecificFamily/EspecificFamily"
+import EspecificCategory from "./Pages/EspecificCategory/EspecificCategory"
 import './App.css'
 import peopleOfNorta from "./assets/peopleOfNorta"
 // console.log(peopleOfNorta)
@@ -51,6 +52,7 @@ function App() {
           <Route path="/silvers" element={<SilverFamilies/>} />
           <Route path="/newBloods" element={<NewBloods />} />
           <Route path="/especificFamily/:familyName" element={<EspecificFamily/>}></Route>
+          <Route path="/especificCategory/:familyName" element={<EspecificCategory/>}></Route>
         </Routes>
       </div>
     </Router>

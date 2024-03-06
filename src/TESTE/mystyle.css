@@ -57,11 +57,11 @@ body{
 }
 
 .bg-primary{
-    background: (circle, #8ddfff, #6a91ff)
+    background: radial-gradient(circle, #47004a, #000)
 }
 
 .bg-teal{
-    background-color: rgb(255, 176, 73);
+    background-color:rgb(195, 0, 255);
 }
 
 h1{

@@ -3,6 +3,7 @@ import "./EspecificFamily.css"
 import peopleOfNorta from "../../assets/peopleOfNorta"
 import ArrayPeople from "../../Components/ArrayPeople/ArrayPeople"
 export default function EspecificFamily(){
+    console.log(peopleOfNorta)
     const {familyName} = useParams()
     const familyStr = familyName.toLowerCase()
     const arrayFamily = peopleOfNorta.silverHouses[familyStr]
