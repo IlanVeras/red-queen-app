@@ -14,7 +14,7 @@
     border-radius: 10px;
     background: #e0e0e0;
     box-shadow:  35px 35px 70px #bebebe,
-             -35px -35px 70px #ffffff;
+             -35px -35px 70px transparent;
     z-index: 2;
 }
 
@@ -45,4 +45,12 @@
 
 .btn_Card{
     all: unset;
+}
+
+
+
+@media all and (min-width: 400px) {
+    .container_Card{
+        /* margin-right: 10px; */
+    }
 }

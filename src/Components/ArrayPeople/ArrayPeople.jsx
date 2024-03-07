@@ -6,7 +6,9 @@ export default function ArrayPeople(props){
         <div className="container-ArrayPeople">
             {
                 props.array.people.map((person,key) => (
-                    <Card key={key.toString()} personName={person.name} houseName={props.array.houseName} houseColors={props.array.houseColors}></Card>
+                    <div className="second-container-Card-People">
+                        <Card key={key.toString()} personName={person.name} houseName={props.array.houseName} houseColors={props.array.houseColors}></Card>
+                    </div>
                 ))
             }
         </div>

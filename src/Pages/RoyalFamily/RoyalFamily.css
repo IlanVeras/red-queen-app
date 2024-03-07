@@ -1,7 +1,26 @@
-.second-container-ArrayPeople{
+/* .second-container-ArrayPeople{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: red;
+} */
+
+.second-container-ArrayPeople{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media all and (max-width: 400px) {
+    .second-container-ArrayPeople{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px; 
+    }
 }

@@ -1,6 +1,18 @@
+.container-ArrayPeople{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .second-container{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     margin-top: 50px;
+}
+
+.second-container-Card-People{
+
+    padding: 0 20px;
 }

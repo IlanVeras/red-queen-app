@@ -17,9 +17,11 @@ export default function EspecificFamily(){
                 <p>Abilities</p>
             </div>
             <div>
-            {arrayFamily.abilities.map(abilitie => (
-                <p>{abilitie}</p>
-            ))}
+            <div id="paragraf-abilities">
+                {arrayFamily.abilities.map(abilitie => (
+                        <p>{abilitie}</p>
+                ))}
+            </div>
             </div>
             <div className="second-container">
                 <ArrayPeople array={arrayFamily}></ArrayPeople>

@@ -1,6 +1,34 @@
-.second-container{
+/* .second-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+} */
+
+/* html, body {
+    height: 100%;
+    margin: 0;
+  } */
+
+.container-ArrayPeopleRoyalty{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+
+.second-container-Card{
+    padding:0 20px;
+}
+
+@media all and (max-width: 400px) {
+    .container-ArrayPeopleRoyalty{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .second-container-Card{
+        padding:0 0 0 0;
+    }
 }

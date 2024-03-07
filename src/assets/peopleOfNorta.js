@@ -20,7 +20,7 @@ const peopleOfNorta = {
             ]
         },
         blonos: {
-            abilities: [],
+            abilities: ["able to hel themselves","very hard endurance", "almost imortals"],
             category: "blood healers",
             houseColors: {
                 backGroundHouse: "white",
@@ -30,7 +30,7 @@ const peopleOfNorta = {
             },
             houseName: "Blonos",
             weaknesses: [
-                
+                "time"
             ],
             people: []
         },
@@ -94,14 +94,17 @@ const peopleOfNorta = {
           },          
         samos: {
             abilities: [
-                "control over Metal and Magnetism",
+                "control over metal and magnetism",
                 "strong relationship with anny type of metal"
             ],
             category: "magnetrons",
             houseColors: {
                 backGroundHouse: "black",
-                color1: "#A9A9A9",
-                color2: "#D3D3D3",
+                // color1: "#A9A9A9",
+                // color2: "#D3D3D3",
+                // color3: "#C0C0C0"
+                color1: "white",
+                color2: "white",
                 color3: "#C0C0C0"
             },
             houseName: "Samos",
@@ -132,7 +135,7 @@ const peopleOfNorta = {
                     status: true,
                     royal: true,
                     gender: "f"
-                }
+                },
             ]
         },
         merandus: {
@@ -176,7 +179,7 @@ const peopleOfNorta = {
         newBloods: {
             electricons: {
                 abilities: ["Generate Electricity", "Control of lightnings"],
-                category: "electricons",
+                category: "Electricons",
                 houseColors: {
                     backGroundHouse: "radial-gradient(circle, #47004a, #000)",
                     color1: "rgb(248, 33, 255)",
@@ -200,7 +203,7 @@ const peopleOfNorta = {
             },
             teleporters: {
                 abilities: [],
-                category: "teleporters",
+                category: "Teleporters",
                 houseColors: {
                     backGroundHouse: "",
                     color1: "",

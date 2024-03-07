@@ -1,8 +1,9 @@
 .container-SilverFamilies{
     margin: 30px 0px 30px 0px;
     width: 100%;
-    /* background-color: rgb(255, 0, 234); */
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #second-container-SilverFamilies{
@@ -19,38 +20,4 @@
 #houseName{
     font-size: 20px;
     margin-top: 20px;
-}
-
-@media (max-width: 599px) {
-    .container-SilverFamilies{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .second-container-SilverFamilies{
-        background-color: red;
-    }
-}
-
-@media  (min-width: 600px) {
-    .container-SilverFamilies{
-        display: grid;
-        gap: 10px;
-        grid-template-columns: auto auto auto;
-        /* background-color: red; */
-        align-items: center;
-        justify-content: center;
-    }
-    /* .container-Frame{
-        margin: 0px 30px 30px 0;
-    } */
-}
-
-@media  (min-width: 1200px) {
-    .container-SilverFamilies{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        background-color: red;
-    }
 }
