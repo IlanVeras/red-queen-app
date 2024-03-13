@@ -1,3 +1,4 @@
+
 const peopleOfNorta = {
     silverHouses: {
         arven: {
@@ -53,6 +54,7 @@ const peopleOfNorta = {
             ],
             people: [
                 {
+                    id: "aB3cDfGhI",
                     name: "Tiberias Jacos Calore VII",
                     father: "Tiberias Calore VI",
                     mother: "Coriane Jacos Calore",
@@ -61,6 +63,7 @@ const peopleOfNorta = {
                     gender: "m"
                 },
                 {
+                    id: "JkLmNoPq",
                     name: "Maven Merandus Calore",
                     father: "Tiberias Calore VI",
                     mother: "Elara Merandus Calore",
@@ -83,6 +86,7 @@ const peopleOfNorta = {
             weaknesses: [],
             people: [
               {
+                id: "R4sT5uVw",
                 name: "Cantos Carros",
                 father: "",
                 mother: "",
@@ -91,7 +95,76 @@ const peopleOfNorta = {
                 gender: "m",
               },
             ],
-          },          
+          },
+          eagrie: {
+            abilities: [],
+            category: "Eyes",
+            houseColors: {
+              backGroundHouse: "radial-gradient(circle, #fdf9d4, #ffffff)",
+              color1: "yellow",
+              color2: "yellow",
+              color3: "yellow",
+            },
+            houseName: "Eagrie",
+            weaknesses: [],
+            people: [
+              {
+                id: "XyZ7aB8c",
+                name: "Andros Eagrie",
+                father: "",
+                mother: "",
+                status: false,
+                royal: false,
+                gender: "m",
+              },
+            ],
+          },
+          gliacon: {
+            abilities: [],
+            category: "Shivers",
+            houseColors: {
+              backGroundHouse: "radial-gradient(circle, #57ddff, #f7feff)",
+              color1: "white",
+              color2: "white",
+              color3: "white",
+            },
+            houseName: "Gliacon",
+            weaknesses: [],
+            people: [
+              {
+                id: "DfGhIjK2",
+                name: "Alice Gliacon",
+                father: "",
+                mother: "",
+                status: false,
+                royal: false,
+                gender: "m",
+              },
+            ],
+          },
+          haven: {
+            abilities: [],
+            category: "Shadows",
+            houseColors: {
+              backGroundHouse: "radial-gradient(circle, #b8b8b8, #474747)",
+              color1: "white",
+              color2: "white",
+              color3: "white",
+            },
+            houseName: "Haven",
+            weaknesses: [],
+            people: [
+              {
+                id: "LmN9oPqR",
+                name: "Elane Haven",
+                father: "",
+                mother: "",
+                status: false,
+                royal: false,
+                gender: "m",
+              },
+            ],
+          },              
         samos: {
             abilities: [
                 "control over metal and magnetism",
@@ -113,28 +186,31 @@ const peopleOfNorta = {
             ],
             people: [
                 {
+                    id: "S5uVwXyZ",
                     name: "Volo Samos",
                     father: "",
                     mother: "",
                     status: true,
                     royal: false,
-                    gender: "m"
+                    gender: "m",
                 },
                 {
+                    id: "7aB8cDfG",
                     name: "Ptolemus Viper Samos",
                     father: "Volo Samos",
                     mother: "Larentia Viper",
                     status: true,
                     royal: false,
-                    gender: "m"
+                    gender: "m",
                 },
                 {
+                    id: "hIjK2LmN",
                     name: "Evangeline Viper Samos",
                     father: "Volo Samos",
                     mother: "Larentia Viper",
                     status: true,
                     royal: true,
-                    gender: "f"
+                    gender: "f",
                 },
             ]
         },
@@ -151,6 +227,7 @@ const peopleOfNorta = {
             weaknesses: [],
             people: [
               {
+                id: "9oPqRsT5",
                 name: "Elara Merandus",
                 father: "",
                 mother: "",
@@ -159,6 +236,7 @@ const peopleOfNorta = {
                 gender: "f",
               },
               {
+                id: "uVwXyZ7aB",
                 name: "Samson Merandus",
                 father: "",
                 mother: "",
@@ -192,6 +270,7 @@ const peopleOfNorta = {
                 ],
                 people: [
                     {
+                        id: "8cDfGhIjK",
                         name: "Mare Barrow",
                         father: "",
                         mother: "",
@@ -216,6 +295,7 @@ const peopleOfNorta = {
                 ],
                 people: [
                     {
+                        id: "2LmN9oPq",
                         name: "Shade Barrow",
                         father: "",
                         mother: "",
@@ -229,96 +309,6 @@ const peopleOfNorta = {
     }
 }
 
-// export default peopleOfNorta
 
-
-
-
-// const peopleOfNorta = {
-//     silverHouses: [
-//         {
-//             houseName: "Arven",
-//             abilities: [
-//                                 "Nullify the powers of other silvers and new bloods"
-//                             ],
-//             category: "Silencers",
-//             houseColors: {},
-//             weaknesses: [
-                
-//                         ],
-//         },
-//         {houseName: "Calore"},
-//         {
-//             houseName: "Samos",
-//             abilities: [
-//                         "Control over Metal and Magnetism",
-//                         "Strong relationship with anny type of metal"
-//                         ],
-//             category: "Magnetrons",
-//             houseColors: {
-//             backGroundHouse: "black",
-//             color1: "#A9A9A9",
-//             color2: "#D3D3D3",
-//             color3: "#C0C0C0"
-//                             },
-//                             houseName: "Samos",
-//                             weaknesses: [
-                                
-//                             ],
-//                             people: [
-//                                 {
-//                                     name: "Volo Samos",
-//                                     father: "",
-//                                     mother: "",
-//                                     status: true,
-//                                     royal: false,
-//                                     gender: "m"
-//                                 },
-//                                 {
-//                                     name: "Ptolemus Viper Samos",
-//                                     father: "Volo Samos",
-//                                     mother: "Larentia Viper",
-//                                     status: true,
-//                                     royal: false,
-//                                     gender: "m"
-//                                 },
-//                                 {
-//                                     name: "Evangeline Viper Samos",
-//                                     father: "Volo Samos",
-//                                     mother: "Larentia Viper",
-//                                     status: true,
-//                                     royal: false,
-//                                     gender: "f"
-//                                 }
-//                             ]
-//         },
-//     ],
-//     RedOnes: {
-//         pureBlood: {
-//             male: [],
-//             female: []
-//         },
-//         newBloods: {
-//             electricons: {
-//                 abilities: "",
-//                 cathegory: "",
-//                 weaknesses: [
-                
-//                 ],
-//                 male: [],
-//                 female: []
-//             },
-//             teleporters: {
-//                 abilities: "",
-//                 cathegory: "",
-//                 weaknesses: [
-                
-//                 ],
-//                 male: [],
-//                 female: []
-//             }
-//         }
-//     }
-// }
 
 export default peopleOfNorta

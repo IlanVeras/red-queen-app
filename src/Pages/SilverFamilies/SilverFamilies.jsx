@@ -16,8 +16,8 @@ export default function SilverFamilies(){
     return(
         <div className="container-SilverFamilies">
            {
-            arrColors.map(f => (
-                <div id="second-container-SilverFamilies">
+            arrColors.map((f, key) => (
+                <div id="second-container-SilverFamilies" key={key}>
                     <Frame>
                         <Link to={"/especificFamily/" + f.houseName}>
                             <Bubbles backGroundHouse={f.houseColors.backGroundHouse} bubble1={f.houseColors.color1} bubble2={f.houseColors.color2} bubble3={f.houseColors.color3}></Bubbles>

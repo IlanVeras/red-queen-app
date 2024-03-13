@@ -12,9 +12,9 @@ import SilverFamilies from "./Pages/SilverFamilies/SilverFamilies"
 import NewBloods from "./Pages/NewBloods/NewBloods"
 import EspecificFamily from "./Pages/EspecificFamily/EspecificFamily"
 import EspecificCategory from "./Pages/EspecificCategory/EspecificCategory"
+import DetailsPerson from "./Pages/DetailsPerson/DetailsPerson"
 import './App.css'
 import peopleOfNorta from "./assets/peopleOfNorta"
-// console.log(peopleOfNorta)
 // console.log(peopleOfNorta.silverHouses.samos)
 
 function App() {
@@ -53,6 +53,7 @@ function App() {
           <Route path="/newBloods" element={<NewBloods />} />
           <Route path="/especificFamily/:familyName" element={<EspecificFamily/>}></Route>
           <Route path="/especificCategory/:familyName" element={<EspecificCategory/>}></Route>
+          <Route path="/person/:familyName/:id" element={<DetailsPerson/>}></Route>
         </Routes>
       </div>
     </Router>

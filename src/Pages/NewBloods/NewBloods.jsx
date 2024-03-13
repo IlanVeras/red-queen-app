@@ -19,8 +19,8 @@ export default function NewBloods(){
     return(
         <div className="container-NewBloods">
             {
-                arrColors.map(f => (
-                    <div id="second-container-NewBloods">
+                arrColors.map((f, key) => (
+                    <div id="second-container-NewBloods" key={key}>
                         <Frame>
                             <Link to={"/especificCategory/" + f.houseName}>
                                 <Bubbles backGroundHouse={f.houseColors.backGroundHouse}

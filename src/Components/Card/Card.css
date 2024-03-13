@@ -47,6 +47,11 @@
     all: unset;
 }
 
+a{
+    all: unset;
+    cursor: pointer;
+}
+
 
 
 @media all and (min-width: 400px) {

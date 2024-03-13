@@ -15,7 +15,7 @@ export default function EspecificCategory(){
                 <p>Abilities</p>
             </div>
             <div>
-                {arrayCategory.abilities.map(abilitie => (
+                {arrayCategory.abilities.map((abilitie, key) => (
                     <p>{abilitie}</p>
                 ))}
             </div>
