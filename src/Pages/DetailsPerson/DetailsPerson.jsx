@@ -35,9 +35,9 @@ export default function DetailsPerson(){
     // console.log(generalArrayInformation)
     // properPerson.royal
     return(
-        <div>
+        <div className="container-DetailsPerson">
             <h1>{properPerson.name}</h1>
-            <div>
+            <div className="container-table-DetailsPerson">
                 <table>
                     <tr>
                         <th>Status</th>
