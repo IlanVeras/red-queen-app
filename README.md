@@ -1,4 +1,4 @@
-<h1>Esse projeto foi baseado na série de livros da saga <i>Red Queen</i> escrita porVictoria Aveyard</h1>
+<h1>Esse projeto foi baseado na série de livros da saga <i>Red Queen</i> escrita por Victoria Aveyard</h1>
 <p>O objetivo do site é criar uma interface que guarde os dados dos cidadão do Reino de Norta</p>
 <h2>Focos do projeto</h2>
 <ul>
