@@ -1,10 +1,29 @@
+.container-name-DetailsPerson{
+    padding-top: 20px;
+    /* background-color: yellow; */
+    text-align: center;
+}
+
 table, tr{
-    border: 1px solid
+    border: 1px solid'
+}
+
+th,td{
+    /* background-color: blueviolet; */
+    text-align: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .container-DetailsPerson{
-
+    /* background-color: red; */
+    padding-left: 1.2rem;
 }
 
 .container-table-DetailsPerson{
+    /* background-color: aquamarine; */
+}
+
+.container-table-DetailsPerson  td::first-letter{
+    text-transform: uppercase;
 }

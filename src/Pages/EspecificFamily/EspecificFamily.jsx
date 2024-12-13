@@ -10,10 +10,10 @@ export default function EspecificFamily(){
     console.log(peopleOfNorta)
     console.log(arrayFamily)
     return(
-        <div className="container-EspecificFamily">
+        <div className="container-EspecificFamily Animate">
             <div className="container-paragrafs">
-                <h2>House Of {familyName}</h2>
-                <h3>House Of {arrayFamily.category}</h3>
+                <h2>House {familyName}</h2>
+                <h3>Family of {arrayFamily.category}</h3>
                 <p>Abilities</p>
             </div>
             <div>

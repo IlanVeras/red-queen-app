@@ -3,7 +3,8 @@ const peopleOfNorta = {
     silverHouses: {
         arven: {
             abilities: [
-                "nullify the powers of other silvers and new bloods"
+                "nullify the powers of other silvers and new bloods",
+                "imune to the silent stone"
             ],
             category: "silencers",
             houseColors: {
@@ -17,11 +18,37 @@ const peopleOfNorta = {
 
             ],
             people: [
-                {}
+                {
+                  id: "QrStUvWx",
+                  name: "Luther Arven",
+                  father: "Darius Arven",
+                  mother: "Helena Arven",
+                  status: true,
+                  royal: false,
+                  gender: "m"
+                },
+                {
+                  id: "YzAbCdEf",
+                  name: "Selena Arven",
+                  father: "Darius Arven",
+                  mother: "Helena Arven",
+                  status: true,
+                  royal: false,
+                  gender: "f"
+                },
+                {
+                  id: "GhIjKlMn",
+                  name: "Elias Arven",
+                  father: "Lucan Arven",
+                  mother: "Seraphina Arven",
+                  status: true,
+                  royal: false,
+                  gender: "m"
+                },
             ]
         },
         blonos: {
-            abilities: ["able to hel themselves","very hard endurance", "almost imortals"],
+            abilities: ["able to heal themselves","very hard endurance", "almost imortals"],
             category: "blood healers",
             houseColors: {
                 backGroundHouse: "white",
@@ -33,7 +60,17 @@ const peopleOfNorta = {
             weaknesses: [
                 "time"
             ],
-            people: []
+            people: [
+              {
+                id: "AbCdEfGh",
+                name: "Livia Blonos",
+                father: "Marcus Blonos",
+                mother: "Serena Blonos",
+                status: true,
+                royal: false,
+                gender: "f"
+              }
+            ]
         },
         calore: {
             abilities: [
@@ -284,10 +321,10 @@ const peopleOfNorta = {
                 abilities: [],
                 category: "Teleporters",
                 houseColors: {
-                    backGroundHouse: "",
-                    color1: "",
-                    color2: "",
-                    color3: "",
+                    backGroundHouse: "radial-gradient(circle, #004a04, #000)",
+                    color1: "rgb(10, 128, 16)",
+                    color2: "rgb(61, 224, 69)",
+                    color3: "rgb(0, 255, 42)",
                 },
                 houseName: "New Blood",
                 weeknesses: [

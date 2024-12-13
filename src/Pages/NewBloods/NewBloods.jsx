@@ -17,7 +17,7 @@ export default function NewBloods(){
     }
     console.log(newBloods)
     return(
-        <div className="container-NewBloods">
+        <div className="container-NewBloods Animate">
             {
                 arrColors.map((f, key) => (
                     <div id="second-container-NewBloods" key={key}>

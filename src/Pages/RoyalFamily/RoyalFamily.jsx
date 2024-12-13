@@ -30,7 +30,7 @@ export default function RoyalFamily(){
   const silverHousesWithRoyalty = generateRoyalPeopleForHouses(silverHousesArray)
 
   return(
-    <div className='second-container-ArrayPeople'>
+    <div className='second-container-ArrayPeople Animate'>
       {silverHousesWithRoyalty.map((house, index) => (
         <ArrayPeopleRoyalty key={index} array={house}></ArrayPeopleRoyalty>
       ))}

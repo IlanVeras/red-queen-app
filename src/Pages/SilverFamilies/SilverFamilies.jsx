@@ -14,7 +14,7 @@ export default function SilverFamilies(){
           }
     }
     return(
-        <div className="container-SilverFamilies">
+        <div className="container-SilverFamilies Animate">
            {
             arrColors.map((f, key) => (
                 <div id="second-container-SilverFamilies" key={key}>

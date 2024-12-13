@@ -36,7 +36,7 @@ function App() {
   return(
     <>
       <Router>
-      <div>
+      <div className="Animate">
         <div className="container_Header">
             <h3 id="titKingdom">Kindom Of Norta</h3>
             <div>
