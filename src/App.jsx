@@ -42,7 +42,7 @@ function App() {
             <div>
                 <ul className="menu_options">
                     <li><Link to="/" className="linkMy">Royal Family</Link></li>
-                    <li><Link to="/silvers" className="linkMy">SilverHouses</Link></li>
+                    <li><Link to="/silvers" className="linkMy">Silver Houses</Link></li>
                     <li><Link to="/newBloods" className="linkMy">New Bloods</Link></li>
                 </ul>
             </div>
